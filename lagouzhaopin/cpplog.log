@@ -1,0 +1,1464 @@
+2019-10-30 17:25:41 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:44 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:46 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:48 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:51 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:53 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:56 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:25:59 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:01 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:04 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:07 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:09 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:12 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:14 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:17 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:19 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:22 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:25 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:28 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:31 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:33 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:35 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:37 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:40 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 17:26:42 [scrapy.core.scraper] ERROR: Spider error processing <POST https://www.lagou.com/jobs/positionAjax.json?city=%E5%8C%97%E4%BA%AC&needAddtionalResult=false> (referer: https://www.lagou.com/jobs/list_C%2B%2B/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput=)
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\spiders\lg.py", line 40, in parse
+    showId = res_json['content']['showId']#post请求id
+KeyError: 'content'
+2019-10-30 18:27:14 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:27:14 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 53, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 47, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 63, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 57, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+2019-10-30 18:31:37 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:31:37 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 54, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 48, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 64, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 58, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+2019-10-30 18:31:56 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:31:56 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 54, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 48, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 64, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 58, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+2019-10-30 18:31:59 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:31:59 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 54, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 48, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 64, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 58, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+2019-10-30 18:32:02 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:32:02 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 54, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 48, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 64, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 58, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+2019-10-30 18:32:40 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:32:40 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 54, in get_cookie
+    session.get(self.url, headers=self.head,)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 48, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 64, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 58, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+2019-10-30 18:34:26 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-10-30 18:34:26 [twisted] CRITICAL:
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 54, in get_cookie
+    session.get(self.url, headers=self.head,)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 485, in wrap_socket
+    cnx.do_handshake()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\SSL.py", line 1647, in _raise_ssl_error
+    _raise_current_error()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\OpenSSL\_util.py", line 54, in exception_from_error_queue
+    raise exception_type(errors)
+OpenSSL.SSL.Error: [('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connection.py", line 394, in connect
+    ssl_context=context,
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\contrib\pyopenssl.py", line 491, in wrap_socket
+    raise ssl.SSLError("bad handshake: %r" % e)
+ssl.SSLError: ("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\core\downloader\__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\middleware.py", line 35, in from_settings
+    mw = create_instance(mwcls, settings, crawler)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\scrapy\utils\misc.py", line 146, in create_instance
+    return objcls(*args, **kwargs)
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 48, in __init__
+    self.set_time()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 64, in set_time
+    self.cookie = self.get_cookie()
+  File "E:\scrapy\lagouzhaopin\lagouzhaopin\cookiemiddlewares.py", line 58, in get_cookie
+    session.get(self.url, headers=self.head, proxies={'http': temp})
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\programdata\anaconda3\envs\spiderpath\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.lagou.com', port=443): Max retries exceeded with url: /jobs/list_PHP/p-city_2?&cl=false&fromSearch=true&labelWords=&suginput= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
